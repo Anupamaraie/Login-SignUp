@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href = "{% static 'css/base.css' %}">
+    <title>Kheti - The Market</title>
+</head>
+<body>
+
+    {% for message in messages%}
+    <div class="alert alert-{{message.tags}} alert-dismissable fade show" role = "alert">
+    <strong>Message: </strong>{{message}}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    {% endfor %}
+<div class =" background">
+   
+    <div class = "first">
+    <h3>Welcome to Kheti-The Market</h3>
+    </div>
+    <div class = "para">
+    <p1>Thank you for visiting our website. We hope to provide you with the best possible services and hope for your positive feedback.</p>
+    </div>
+      <div class="second">
+        <button type="submit" class="btnbtn"><a href="/signup">Register</a></button>
+    <button type="submit" class="btnbtn"><a href="/signin">LogIn</a></button>
+      </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:darkseagreen;
+}
+
+.bodypart .header{
+    text-align: center;
+    font-family:monospace;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.bodypart .second{
+    padding-left: 35%;
+    padding-top: 2%;
+    padding-right: 20%;
+    display: flex;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.second input{
+    margin: 3%;
+    padding: 2%;
+    padding-right: 61%;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-family: monospace;
+}
+
+.second input::placeholder{
+    color: darkslategrey;
+}
+
+.second button{
+    font-family: monospace;
+    padding: 1%;
+    border-radius: 6px;
+    margin-left: 50%;
+    font-size: 16px;
+}
+
+.second button:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+
