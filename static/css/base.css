@@ -19,13 +19,11 @@
 
 .second button{
     font-family: monospace;
-    font-size: 30px;
-    display: flex;
+    font-size: 15px;
 }
 
 .btnbtn a{
   padding: 6px 10px;
-  text-align: center;
 }
 
 
